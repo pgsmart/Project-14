@@ -50,6 +50,13 @@ function draw() {
   
   //moving bow
   bow.y = World.mouseY
+  
+  bow.debug = true;
+  bomb.debug = true;
+  red.debug = true;
+  blue.debug = true;
+  green.debug = true;
+  pink.debug = true;
 
   // release arrow when space key is pressed
   if (keyDown("space")) {
