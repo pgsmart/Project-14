@@ -59,7 +59,7 @@ function draw() {
   //creating continous enemies
   var select_balloon = Math.round(random(1,4));
   
-  if (World.frameCount % 100 == 0) {
+  if (World.frameCount % 30 == 0) {
     if (select_balloon == 1) {
       redBalloon();
     } else if (select_balloon == 2) {
